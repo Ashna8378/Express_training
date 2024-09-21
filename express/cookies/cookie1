@@ -1,0 +1,20 @@
+// import { Router } from 'express';
+
+// const router = Router();
+
+// router.get("/", (req, res) => {
+//   console.log(req.signedCookies);
+//   console.log(req.headers.cookie);
+
+//   if (req.signedCookies.test && req.signedCookies.test === 'hello') {
+//     return res.status(200).json({ msg: "Cookies is valid" });
+//   }
+//   res.status(403).json({ msg: "Invalid cookies" });
+// });
+
+// router.get("/get-cookies", (req, res) => {
+//   res.cookie("test", "hello", { path: "/cookies", httpOnly: true, signed: true });
+//   res.json({ msg: "cookies are sent" });
+// });
+
+// export default router;
